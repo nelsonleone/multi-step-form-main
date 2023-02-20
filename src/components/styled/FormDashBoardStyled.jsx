@@ -126,7 +126,6 @@ export const StyledPersonalInfoArea = styled.div`
      &::placeholder{
       color:#6d6d72;
       font-family: inherit;
-      font-weight:bolder;
       font-size:.9rem;
      }
    }

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import { useDispatch, useSelector } from "react-redux";
-import inputErrorAnalyzer from "../helperUtils/InputErrorAnalyzer"
+import inputErrorAnalyzer from "../helperUtils/inputErrorAnalyzer";
 import NextStepBtnArea from "../helperUtils/NextStepBtnArea";
 import { StyledPersonalInfoArea } from "../styled/FormDashBoardStyled"
 import { nextStep } from "../../features/formSlice";

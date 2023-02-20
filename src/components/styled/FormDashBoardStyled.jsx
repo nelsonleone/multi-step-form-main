@@ -57,7 +57,7 @@ export const StyledAsideSection = styled.div`
       background: url('/images/bg-sidebar-desktop.svg');
       background-position: bottom ;
       padding-bottom:1em;
-      background-position-y:-5em;
+      background-position-y:-1em;
    }
   
 `

@@ -1,4 +1,4 @@
-export default function inputErrorAnalyzer(nameRef,emailRef,phoneNumberRef){
+export default function InputErrorAnalyzer(nameRef,emailRef,phoneNumberRef){
    const name = nameRef.current.value;
    const email = emailRef.current.value;
    const phone = phoneNumberRef.current.value;

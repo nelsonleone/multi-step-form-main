@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import { useDispatch, useSelector } from "react-redux";
-import inputErrorAnalyzer from "../helperUtils/inputErrorAnalyzer";
+import InputErrorAnalyzer from "../helperUtils/InputErrorAnalyzer";
 import NextStepBtnArea from "../helperUtils/NextStepBtnArea";
 import { StyledPersonalInfoArea } from "../styled/FormDashBoardStyled"
 import { nextStep } from "../../features/formSlice";
@@ -38,7 +38,7 @@ export default function PersonalInfo(props){
 
    useEffect(() => {
       setError(prev => {
-         return {...prev,message:inputErrorAnalyzer(nameRef,emailRef,phoneNumberRef)}
+         return {...prev,message:InputErrorAnalyzer(nameRef,emailRef,phoneNumberRef)}
       })
    },[EMRcurrent,PNRcurrent,NMRcurrent])
 

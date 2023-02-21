@@ -285,6 +285,7 @@ export const StyledAddOnCard = styled.div`
    padding-right:.6em;
    background:${({checked}) => checked && "var(--Magnolia)"};
    transition:.3s ease-in-out;
+   cursor:pointer;
 
    &:hover{
       border:1px solid var(--purplish-Blue);

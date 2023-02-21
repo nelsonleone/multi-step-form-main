@@ -14,7 +14,7 @@ function AddOnCard (props){
 
 
    return(
-      <StyledAddOnCard key={nanoid()}  checked={isChecked}>
+      <StyledAddOnCard key={nanoid()}  checked={isChecked} onClick={() => handleCheck(id,addOn)}>
          <SrOnlyLabel htmlFor={`addOn${index}Input`}>
          Add Online Services
          </SrOnlyLabel>

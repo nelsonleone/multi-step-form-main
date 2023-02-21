@@ -41,6 +41,11 @@ function AuthManager(){
     }
     catch(err){
       setError({show:true,message:err.code})
+
+
+      setTimeout(() => {
+        setError({show:"",message:""})
+      }, 2000);
     }
   }
 
@@ -102,6 +107,7 @@ function AuthManager(){
     return ()  => clearTimeout(alertTimer)
       
   },[beenAuthenticated,location.pathname])
+
 
   useEffect(() => {
     if(location.pathname === "/" && !beenAuthenticated && !inLoadingState){

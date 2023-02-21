@@ -9,5 +9,6 @@ export default function firebaseAuthErrorFunction(errorCode){
       return "Email already in use"
    }else if(errorCode === "auth/wrong-password"){
       return "Wrong Password"
+   }else if(errorCode === "auth/too-many-requests"){
+      return "Too Many Request, Try Again Later"
    }
-}

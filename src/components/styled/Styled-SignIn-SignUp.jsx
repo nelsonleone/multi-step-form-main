@@ -86,7 +86,7 @@ export const FormBgWrapper = styled.div`
    h1{
       color:#0b0ebedf;
       position: absolute;
-      top:1em;
+      top:.4em;
       left:0;
       text-align:center;
       font-weight:500;

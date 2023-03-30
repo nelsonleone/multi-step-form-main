@@ -12,6 +12,11 @@ function AddOnCard (props){
    const dispatch = useDispatch()
    const pickedAddOns = useSelector(store => store.InputedDetails.pickedAddOns)
 
+   function handleAddOnAdd(e,id,addOn){
+      e.stopPropagation()
+      handleCheck(id,addOn)
+   }
+
 
    return(
       <StyledAddOnCard key={nanoid()}  checked={isChecked} onClick={() => handleCheck(id,addOn)}>
@@ -22,7 +27,7 @@ function AddOnCard (props){
          <input 
            type="checkbox" 
            checked={isChecked}
-           onChange={() => handleCheck(id,addOn)} 
+           onChange={(e) => handleAddOnAdd(e,id,addOn)} 
            aria-labelledby={`addOn${index}`} 
            id={`addOn${index}Input`}
          />

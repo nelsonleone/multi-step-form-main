@@ -16,6 +16,15 @@ export const StyledFormDashBoard = styled.section`
       color:var(--cool-Gray);
    }
 
+   .AT-only{
+      width:1px;
+      height:1px;
+      clip:rect(0,0,0,0);
+      left:-100000px;
+      position: absolute;
+      font-size:1px;
+   }
+
 
 
    @media (min-width:50rem){

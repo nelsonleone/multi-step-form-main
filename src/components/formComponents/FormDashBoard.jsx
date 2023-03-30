@@ -64,6 +64,7 @@ export default function FormDashBoard(){
   return(
     beenAuthenticated &&
     <StyledFormDashBoard>
+      <h1 className="AT-only">Frontend Mentor Multi Step Form</h1>
       <Aside />
       {
         formStep.map(step => {

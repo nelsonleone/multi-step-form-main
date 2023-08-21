@@ -12,3 +12,6 @@ export default function firebaseAuthErrorFunction(errorCode){
    }else if(errorCode === "auth/too-many-requests"){
       return "Too Many Request, Try Again Later"
    }
+   else{
+      return "Error Occured, Try Again"
+   }

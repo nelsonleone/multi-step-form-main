@@ -84,7 +84,7 @@ export const FormBgWrapper = styled.div`
    width:100%;
 
    h1{
-      color:#0b0ebedf;
+      color: black;
       position: absolute;
       top:.4em;
       left:0;

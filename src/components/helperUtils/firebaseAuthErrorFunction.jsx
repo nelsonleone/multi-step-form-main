@@ -15,3 +15,4 @@ export default function firebaseAuthErrorFunction(errorCode){
    else{
       return "Error Occured, Try Again"
    }
+}

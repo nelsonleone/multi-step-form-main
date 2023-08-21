@@ -4,7 +4,7 @@ import { flexObj } from './utils/StyledMixins';
 export  const GlobalStyles =  createGlobalStyle`
   :root{
     --marine-Blue:hsl(213, 96%, 18%);
-    --purplish-Blue:hsl(243, 100%, 62%);
+    --purplish-Blue:hsl(218, 85%, 21%);
     --light-Blue:hsl(206, 94%, 87%);
     --pastel-Blue: hsl(228, 100%, 84%);
 

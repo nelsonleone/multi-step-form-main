@@ -5,6 +5,7 @@ import { FormCard } from "./utils/StyledUtils";
 
 export const StyledFormDashBoard = styled.section`
    width:100%;
+   height: 100vh;
   
    h2{
       color:var(--marine-Blue);

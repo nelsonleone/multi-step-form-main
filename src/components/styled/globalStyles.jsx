@@ -34,7 +34,6 @@ export  const GlobalStyles =  createGlobalStyle`
     font-size: var(--default-Font-size);
     font-family: var(--ff);
     background-color: var(--Magnolia);
-    height:100vh;
     position: relative;
 
 
